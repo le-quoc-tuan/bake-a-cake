@@ -1,1 +1,9 @@
-site_name: Bake-a-cake
+site_name: Bake a cake
+repo_url: https://github.com/le-quoc-tuan/bake-a-cake
+repo_name: GitHub
+site_description: Huong dan tim hieu CakePHP
+site_author: Le Quoc Tuan - 22dfly@gmail.com
+theme: readthedocs
+pages:
+- Mở đầu:
+    - Giới thiệu chung: index.md
