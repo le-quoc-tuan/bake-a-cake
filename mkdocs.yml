@@ -19,7 +19,7 @@ pages:
     - Model: basic/model.md
     - View: basic/view.md
 - Nâng cao:
-    - Controller
-    - Model
-    - View
-- Tài liệu tham khảo
+    - Controller: advance/controller.md
+    - Model: advance/model.md
+    - View: advance/view.md
+- Tài liệu tham khảo: reference.md
