@@ -21,10 +21,3 @@
 * Google nhiều nhất có thể.
 
 ## Thông tin về tôi
-
-## Ngoài lề
-
-* Tại sao sử dụng tiếng việt?
-    * Tôi khá là kém tiếng anh.
-    * Tôi không đồng ý với quan điểm không giỏi tiếng anh thì "không thể" học CNTT. Tuy nhiên nếu bạn giỏi tiếng anh, đó là một lợi thế rất lớn vì hầu hết các tài liệu CNTT đều viết bằng tiếng anh.
-* Một số thuật ngữ tiếng anh nên hiểu theo khái niệm, thay vì cố gắng tìm một từ tiếng việt thay thế.

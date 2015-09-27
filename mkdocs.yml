@@ -7,3 +7,19 @@ theme: readthedocs
 pages:
 - Mở đầu:
     - Giới thiệu chung: index.md
+    - Mô hình MVC: overview/request.md
+- Cài đặt:
+    - XAMPP: install/xampp.md
+    - CakePHP: install/cakephp.md
+    - Hello world: install/hello_world.md
+    - Cấu trúc thư mục: install/folder_structure.md
+- Cơ bản:
+    - Route: basic/route.md
+    - Controller: basic/controller.md
+    - Model: basic/model.md
+    - View: basic/view.md
+- Nâng cao:
+    - Controller
+    - Model
+    - View
+- Tài liệu tham khảo
