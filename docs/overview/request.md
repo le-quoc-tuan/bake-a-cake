@@ -13,10 +13,9 @@ Mô hình MVC là viết tắt của Model-View-Controller (hay khối-dữ-li�
 
 ![basic web request](/img/basic_mvc.png)
 
-* Mọi chuyện bắt đầu khi một người dùng A truy cập vào một địa chỉ (*web address*) trên trình duyệt (*web browser*) của anh ta, chẳng hạn như `http://www.bakery.com/cakes/list` , trình duyệt của anh ta sẽ gửi một yêu cầu (*request*) tới *web server*
-* Tại *web server*, bộ định tuyến (*router*) sẽ phân tách *request* thành các tham số để xác định *controller*, *action* nào sẽ xử lý *request* này. Ở đây, request sẽ được xử lý trong `function list() {}` của `CakesController`
-* Trong *action*, một đoạn mã (*code*) sẽ gọi đến *model* tương ứng để lấy tất cả các loại bánh hiện đang có.
-* *model* sẽ truy cập dữ liệu từ *database*, lấy ra danh sách các loại bánh rồi trả lại cho *controller*
-* *controller* truyền dữ liệu nhận được từ *model* xuống *view*
-* Tại *view*, dữ liệu được thể hiện dưới các đoạn mã html
-* Cuối cùng, *web server* trả lại một hồi đáp (*response*) tới *web brower* của A. Tại đây các mã html được trình bày thành text, hình ảnh mà A nhìn thấy.
+1. Mọi chuyện bắt đầu khi một người dùng A truy cập vào một địa chỉ (*web address*) trên trình duyệt (*web browser*) của anh ta, chẳng hạn như `http://www.bakery.com/cakes/list` , trình duyệt của anh ta sẽ gửi một yêu cầu (*request*) tới *web server*
+2. Tại *web server*, bộ định tuyến (*router*) sẽ phân tách *request* thành các tham số để xác định *controller*, *action* nào sẽ xử lý *request* này. Ở đây, request sẽ được xử lý trong `function list() {}` của `CakesController`
+3. Trong *action*, một đoạn mã (*code*) sẽ gọi đến *model* tương ứng để lấy tất cả các loại bánh hiện đang có.
+4. *model* sẽ truy cập dữ liệu từ *database*, lấy ra danh sách các loại bánh rồi trả lại cho *controller*
+5. *controller* truyền dữ liệu nhận được từ *model* xuống *view* . Tại *view*, dữ liệu được thể hiện dưới các đoạn mã html
+6. Cuối cùng, *web server* trả lại một hồi đáp (*response*) tới *web brower* của A. Tại đây các mã html được trình bày thành text, hình ảnh mà A nhìn thấy.

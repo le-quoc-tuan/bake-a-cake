@@ -14,7 +14,7 @@ pages:
     - Hello world: install/hello_world.md
     - Cấu trúc thư mục: install/folder_structure.md
 - Cơ bản:
-    - Route: basic/route.md
+    - Conventions: basic/convention.md
     - Controller: basic/controller.md
     - Model: basic/model.md
     - View: basic/view.md
